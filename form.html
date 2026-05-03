@@ -1,0 +1,105 @@
+!<DOCTYPE html>
+        <head>
+          <title> Student Form PU </title>
+        </head>
+        <body>
+
+          <fieldset>
+          
+            <legend> Student Form </legend> <!--Use Fieldset tag to place all form inputs in center inside a box-->
+                                                 <!--legend tag is the page title of this page -->
+            <form>  <!--To make a Form -->
+              <label for="name"> Enter Your First Name: </label>
+              <br>
+              <input type="text" placeholder="Rekha Begum">      <!--To show suggestions : Use placeholder tag inside input tag-->
+              <br> 
+              <br>
+              <label for="email"> Enter Your Email : </label>
+              <br>
+              <input type="email" placeholder="abcd@gmail.com">
+              <br> 
+              <br>
+              <label for="password"> Enter Your Password: </label>
+              <br>
+              <input type="password" placeholder="set password">
+              <br> 
+              <br>
+              <label for="password"> Confirm Your Password: </label>
+              <br>
+              <input type="cpassword" placeholder="Confirm password">  
+              <br>
+              <br>
+              <br>
+              <label for="image"> Enter Your Profile Photo: </label> 
+              <input type="file">
+              <br>
+              <br>
+              <label for="color"> Enter Your Favorite Color: </label> 
+              <input type="color"> 
+              <br>
+              <br>
+              <br>
+              <label for="image"> Enter Your Date of Birth: </label> 
+              <input type="datetime-local">    <!--Use Datetime local input for date of birth-->
+              <br>
+              <br>
+
+              <label for="image"> Select Age Range </label>
+              <input type="range">
+              <br> 
+              <br>
+              <!--Select Gender-->
+              <input type="radio" id="male" name="gender">  <!--this name tag allows you to select only one gender-->
+              <label for="male"> Male </label>                     <!--without the name tag, a person can select all 3 genders at once. cannot be removed-->
+              <input type="radio" id="female" name="gender">
+              <label for="male"> Female </label> 
+              <input type="radio" id="others" name="gender">
+              <label for="male"> Others </label> 
+
+              <br>
+              <br> <!--br tag is used to give new blank lines or space-->
+
+
+
+              <!--Option Tag using Bikes-->
+              
+              <label for="Department Name"> Department Name: </label>
+              <select name="Department">
+                <option> EEE </option>
+                <option> CSE </option>
+                <option> Economics </option>
+                <option> BBA </option>
+                <option> English </option>
+                <option> LLB </option>
+                <option> MBA </option>
+
+              </select>
+
+              <br>
+              <br>
+              <br>
+
+              <!--to let the user write comments -->
+              <textarea name="" id="" rows="10" cols="35"> Enter your comment </textarea>  
+
+              <br>
+              <br>
+
+             <!--i agree to all condition tag setup-->
+
+             <input type="checkbox" name="" id=""> <label for=""> I agree to all terms and conditions. </label>
+
+             <br> 
+             <br>
+
+            
+
+              <input type="submit">
+              <input type="reset">
+              <!-- <button type="submit"> Submit </button>   -->
+               
+
+            </form>
+            </fieldset>
+        </body>
+</html>
